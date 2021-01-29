@@ -1,6 +1,7 @@
 # IoT12-hardware
 Schematic and PCB files of the IoT12 solder iron temperature controller for T12 tips.
 
+My [Kicad library](https://github.com/atoomnetmarc/ATOOMNETKICAD) is used in this project.
 
 ![](IoT12-render.jpg)
 **Note**: pictured rotary encoder is not the correct type. It should be a EC11 serrated 15mm.
