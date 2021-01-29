@@ -1432,7 +1432,7 @@ L Device:Rotary_Encoder_Switch SW1
 U 1 1 5FF2935D
 P 13000 1750
 F 0 "SW1" H 13000 2117 50  0000 C CNN
-F 1 "Rotary_Encoder_Switch" H 13000 2026 50  0000 C CNN
+F 1 "Rotary encoder EC11 Plum 15mm" H 13000 2026 50  0000 C CNN
 F 2 "Rotary_Encoder-fixed:RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm_CircularMountingHoles" H 12850 1910 50  0001 C CNN
 F 3 "~" H 13000 2010 50  0001 C CNN
 	1    13000 1750
