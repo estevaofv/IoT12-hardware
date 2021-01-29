@@ -6,6 +6,8 @@ My [Kicad library](https://github.com/atoomnetmarc/ATOOMNETKICAD) is used in thi
 ![](IoT12-render.jpg)
 **Note**: pictured rotary encoder is not the correct type. It should be a EC11 serrated 15mm.
 
+![](IoT12-pcb.jpg)
+
 # Status
 
 - [x] Design schematic
@@ -13,7 +15,7 @@ My [Kicad library](https://github.com/atoomnetmarc/ATOOMNETKICAD) is used in thi
 - [x] Slept a few days before ordering PCB
 - [x] Ordered PCB
 - [x] Made my first github repository
-- [ ] PCB arrived
+- [x] PCB arrived
 - [ ] Solder first PCB and make solder intructions
 - [ ] Make firmware
 - [ ] ...
