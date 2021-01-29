@@ -3,6 +3,7 @@ Schematic and PCB files of the IoT12 solder iron temperature controller for T12 
 
 
 ![](IoT12-render.jpg)
+**Note**: pictured rotary encoder is not the correct type. It should be a EC11 serrated 15mm.
 
 # Status
 
@@ -13,10 +14,11 @@ Schematic and PCB files of the IoT12 solder iron temperature controller for T12 
 - [x] Made my first github repository
 - [ ] PCB arrived
 - [ ] Solder first PCB and make solder intructions
+- [ ] Make firmware
 - [ ] ...
 - [ ] profit
 
-At this moment it is unknown if this PCB is going to work or set your house on fire.\
+At this moment it is unknown if this PCB is going to work or set your house on fire. You should be present at all times when using this circuit.\
 There is a safety circuit on the board in case the ESP32 controller decides to die and stuck the heater on permanently. The heater must be turned off and on within 0.5s to keep the safety circuit happy.
 
 
