@@ -17,11 +17,13 @@ My [Kicad library](https://github.com/atoomnetmarc/ATOOMNETKICAD) is used in thi
 - [x] Made my first github repository
 - [x] PCB arrived
 - [x] Solder first PCB and make assembly intructions
+- [x] Observe that there is something wrong in schematic
+- [ ] Debug PCB
 - [ ] Make firmware
 - [ ] ...
 - [ ] profit
 
-At this moment it is unknown if this PCB is going to work or set your house on fire. You should be present at all times when using this circuit.\
+At this moment **it is unknown if this PCB is going to work** or set your house on fire. You should be present at all times when using this circuit.\
 There is a safety circuit on the board in case the ESP32 controller decides to die and stuck the heater on permanently. The heater must be turned off and on within 0.5s to keep the safety circuit happy.
 
 # License
