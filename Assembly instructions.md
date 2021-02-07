@@ -24,7 +24,7 @@ R14.\
 R15, R16, R17, R18, R19, R20, R21.\
 R23, R29.\
 R24.\
-R25, R26, R27, R28. *Read schematic notes*.\
+R25, R26, R27, R28. **Read schematic notes about these resistors.**\
 R30.\
 R31, R32, R33, R34, R35, R36, R37.\
 R38, R39, R40, R41.
@@ -32,7 +32,7 @@ R38, R39, R40, R41.
 **Diode**
 
 D1.\
-D2.\
+D2, D8.\
 D3.\
 D4.\
 D5, D6, D7.
@@ -94,12 +94,14 @@ Solder a GX12-5 socket connector to the solder iron connector holes with the cor
 
 **Testing**
 
-Connect a (KSGER) T12 solder iron handle with the T12 tip firmly seated inside.\
-Measure about 1MΩ between the tip of the iron and EARTH hole at the Power supply connection on the pcb.\
-Now measure some values at the solder iron connector holes.\
-The heater resistor between 4 (black) and 5 (red): 8Ω\
-The NTC between 4 (black) and 2 (white): 5KΩ@22°C, but that could vary slightly when not measuring at the same room temperature.\
-Test the tilt sensor. Point iron up and measure between 1 (blue) and 3 (green): >2MΩ\
+Connect a (KSGER) T12 solder iron handle with the T12 tip firmly seated inside.
+
+- Measure about 1MΩ between the tip of the iron and EARTH hole at the Power supply connection on the pcb.
+- Now measure some values at the solder iron connector holes.\
+The heater resistor between 4 (black) and 5 (red): 8Ω
+- Switch over to measure mV. When you have not touched the handle and tip for half an hour you should read 0mV. Grab the tip with your hand. You should notice an increasing voltage, possibly a rise until 0.06mV. It is possible your voltmeter is not capable of measuring in the microvolt range. You can heat the tip with a flame for a few seconds to increase the voltage some more.
+- The NTC between 4 (black) and 2 (white): 5KΩ@22°C, but that could vary slightly when not measuring at the same room temperature.
+- Test the tilt sensor. Point iron up and measure between 1 (blue) and 3 (green): >2MΩ\
 Point iron down and measure a low resistance: <100Ω
 
 Solder a red wire to 24V and black wire to GND of the power supply connector holes.\

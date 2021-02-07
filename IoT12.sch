@@ -214,33 +214,29 @@ $EndComp
 $Comp
 L power:+3.3V #PWR0122
 U 1 1 5FF16F22
-P 14550 3650
-F 0 "#PWR0122" H 14550 3500 50  0001 C CNN
-F 1 "+3.3V" H 14565 3823 50  0000 C CNN
-F 2 "" H 14550 3650 50  0001 C CNN
-F 3 "" H 14550 3650 50  0001 C CNN
-	1    14550 3650
+P 14450 3650
+F 0 "#PWR0122" H 14450 3500 50  0001 C CNN
+F 1 "+3.3V" H 14465 3823 50  0000 C CNN
+F 2 "" H 14450 3650 50  0001 C CNN
+F 3 "" H 14450 3650 50  0001 C CNN
+	1    14450 3650
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR0126
 U 1 1 5FF173EA
-P 14550 4450
-F 0 "#PWR0126" H 14550 4200 50  0001 C CNN
-F 1 "GND" H 14555 4277 50  0000 C CNN
-F 2 "" H 14550 4450 50  0001 C CNN
-F 3 "" H 14550 4450 50  0001 C CNN
-	1    14550 4450
+P 14450 4450
+F 0 "#PWR0126" H 14450 4200 50  0001 C CNN
+F 1 "GND" H 14455 4277 50  0000 C CNN
+F 2 "" H 14450 4450 50  0001 C CNN
+F 3 "" H 14450 4450 50  0001 C CNN
+	1    14450 4450
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	14550 4350 14550 4450
+	14450 4350 14450 4450
 Wire Wire Line
-	14550 3650 14550 3750
-Wire Wire Line
-	15500 4050 15600 4050
-Text GLabel 15600 4050 2    50   Output ~ 0
-~RESET
+	14450 3650 14450 3750
 Text GLabel 9050 1700 0    50   Input ~ 0
 ~RESET
 Wire Wire Line
@@ -1084,8 +1080,6 @@ Wire Wire Line
 	12300 3700 12300 4200
 Wire Wire Line
 	12450 4000 12200 4000
-Text Label 1200 1750 0    50   ~ 0
-Vin
 $Comp
 L Mechanical:MountingHole H3
 U 1 1 5FF628B9
@@ -1178,10 +1172,11 @@ $Comp
 L Device:Speaker_Crystal LS1
 U 1 1 607BA4F0
 P 8400 2350
-F 0 "LS1" H 8366 2667 50  0000 C CNN
-F 1 "Piezo disc" H 8366 2576 50  0000 C CNN
+F 0 "LS1" H 8575 2391 50  0000 L CNN
+F 1 "Conn_01x02_Male" H 8575 2300 50  0000 L CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 8365 2300 50  0001 C CNN
 F 3 "~" H 8365 2300 50  0001 C CNN
+F 4 "Piezo disc" H 8575 2209 50  0000 L CNN "Description"
 	1    8400 2350
 	-1   0    0    -1  
 $EndComp
@@ -1289,9 +1284,10 @@ L Display_Graphic-extra:Nokia_5110_display A2
 U 1 1 5FFFC9C9
 P 3300 5500
 F 0 "A2" H 3500 5950 50  0000 L CNN
-F 1 "Nokia_5110_display" H 2900 4750 50  0000 L CNN
+F 1 "2x Conn_01x09_Female" H 2800 4750 50  0000 L CNN
 F 2 "Display-extra:Nokia_5110_display_module" H 3300 4900 50  0001 C CNN
 F 3 "" H 3700 5200 50  0001 C CNN
+F 4 "Nokia_5110_display" H 3250 4650 50  0000 C CNN "Description"
 	1    3300 5500
 	1    0    0    -1  
 $EndComp
@@ -1439,25 +1435,14 @@ F 3 "~" H 13000 2010 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R2
-U 1 1 5FF18CDB
-P 15350 4050
-F 0 "R2" V 15143 4050 50  0000 C CNN
-F 1 "100R" V 15234 4050 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 15280 4050 50  0001 C CNN
-F 3 "~" H 15350 4050 50  0001 C CNN
-	1    15350 4050
-	0    1    1    0   
-$EndComp
-$Comp
 L Power_Supervisor:TPS3839DBZ U1
 U 1 1 5FF16B0D
-P 14550 4050
-F 0 "U1" H 14850 4350 50  0000 R CNN
-F 1 "MAX809S" H 14900 3800 50  0000 R CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 14550 4050 50  0001 C CNN
-F 3 "" H 14550 4050 50  0001 C CNN
-	1    14550 4050
+P 14450 4050
+F 0 "U1" H 14750 4350 50  0000 R CNN
+F 1 "MAX809S" H 14800 3800 50  0000 R CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 14450 4050 50  0001 C CNN
+F 3 "" H 14450 4050 50  0001 C CNN
+	1    14450 4050
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1465,9 +1450,10 @@ L MCU_Module-extra:ESP32-DevKitC A1
 U 1 1 5FF09372
 P 9950 2750
 F 0 "A1" H 10450 4000 50  0000 C CNN
-F 1 "ESP32-DevKitC" H 10300 1000 50  0000 C CNN
+F 1 "2x Conn_01x19_Female" H 10450 1000 50  0000 C CNN
 F 2 "Module-extra:ESP32-DevKitC" H 9950 850 50  0001 C CNN
 F 3 "https://www.espressif.com/sites/default/files/documentation/esp32-wroom-32_datasheet_en.pdf" H 9650 2650 50  0001 C CNN
+F 4 "ESP32-DevKitC" H 10300 900 50  0000 C CNN "Description"
 	1    9950 2750
 	1    0    0    -1  
 $EndComp
@@ -1697,11 +1683,11 @@ Connection ~ 2050 2500
 Wire Wire Line
 	2050 2500 2050 2700
 Text GLabel 2150 2500 2    50   Output ~ 0
-VADC
+VIN
 Wire Wire Line
 	2050 2500 2150 2500
 Text GLabel 4700 5750 0    50   Input ~ 0
-VADC
+VIN
 Wire Notes Line
 	11750 7500 7000 7500
 Wire Notes Line
@@ -2224,7 +2210,7 @@ L Device:R R25
 U 1 1 6049FD43
 P 12800 6100
 F 0 "R25" V 12593 6100 50  0000 C CNN
-F 1 "10k 1%" V 12684 6100 50  0000 C CNN
+F 1 "10k 0.1%" V 12684 6100 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 12730 6100 50  0001 C CNN
 F 3 "~" H 12800 6100 50  0001 C CNN
 	1    12800 6100
@@ -2246,7 +2232,7 @@ L Device:R R11
 U 1 1 6049FD61
 P 13650 6450
 F 0 "R11" H 13720 6404 50  0000 L CNN
-F 1 "470R 1%" H 13720 6495 50  0000 L CNN
+F 1 "1k 1%" H 13720 6495 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 13580 6450 50  0001 C CNN
 F 3 "~" H 13650 6450 50  0001 C CNN
 	1    13650 6450
@@ -2264,8 +2250,8 @@ Wire Wire Line
 	13750 6550 13750 6600
 Wire Wire Line
 	13750 6600 13650 6600
-Text Notes 13300 6650 0    50   ~ 0
-106.1G
+Text Notes 13350 6650 0    50   ~ 0
+50.4G
 Wire Wire Line
 	14300 6750 14300 6900
 Wire Wire Line
@@ -2394,7 +2380,7 @@ L Device:R R26
 U 1 1 6049FE47
 P 12800 6800
 F 0 "R26" V 12593 6800 50  0000 C CNN
-F 1 "10k 1%" V 12684 6800 50  0000 C CNN
+F 1 "10k 0.1%" V 12684 6800 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 12730 6800 50  0001 C CNN
 F 3 "~" H 12800 6800 50  0001 C CNN
 	1    12800 6800
@@ -2465,7 +2451,7 @@ L Device:R R28
 U 1 1 60186977
 P 12800 9250
 F 0 "R28" V 12593 9250 50  0000 C CNN
-F 1 "10k 1%" V 12684 9250 50  0000 C CNN
+F 1 "10k 0.1%" V 12684 9250 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 12730 9250 50  0001 C CNN
 F 3 "~" H 12800 9250 50  0001 C CNN
 	1    12800 9250
@@ -2476,7 +2462,7 @@ L Device:R R27
 U 1 1 6044BB41
 P 12800 8550
 F 0 "R27" V 12593 8550 50  0000 C CNN
-F 1 "10k 1%" V 12684 8550 50  0000 C CNN
+F 1 "10k 0.1%" V 12684 8550 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 12730 8550 50  0001 C CNN
 F 3 "~" H 12800 8550 50  0001 C CNN
 	1    12800 8550
@@ -2513,9 +2499,9 @@ Wire Notes Line
 Wire Notes Line
 	12600 8100 12600 9350
 Text Notes 12650 8200 0    50   ~ 0
-Matched
+Matched*
 Text Notes 12650 5750 0    50   ~ 0
-Matched
+Matched*
 Wire Notes Line
 	13000 6900 12600 6900
 Wire Notes Line
@@ -2530,8 +2516,6 @@ Wire Wire Line
 	5800 9350 6050 9350
 Wire Wire Line
 	4050 9000 4050 10100
-Wire Wire Line
-	14950 4050 15200 4050
 Wire Wire Line
 	5000 9850 5000 10200
 Wire Wire Line
@@ -2558,8 +2542,8 @@ Wire Wire Line
 	10300 10150 10300 9900
 Wire Wire Line
 	10650 10150 10950 10150
-Text Notes 11950 6500 0    50   ~ 0
-0.015V@3A
+Text Notes 11950 6550 0    50   ~ 0
+0.005V@1A\n0.015V@3A\n0.025V@5A
 $Comp
 L Analog_ADC:ADS1115IDGS U5
 U 1 1 601A48E7
@@ -2935,7 +2919,7 @@ Wire Wire Line
 Wire Wire Line
 	14500 9200 14500 9350
 Text Notes 13500 9100 0    50   ~ 0
-225.5G
+106.1G
 Wire Wire Line
 	13950 9050 13850 9050
 Wire Wire Line
@@ -2953,7 +2937,7 @@ L Device:R R10
 U 1 1 6005AD80
 P 13850 8900
 F 0 "R10" H 13920 8854 50  0000 L CNN
-F 1 "220R 1%" H 13920 8945 50  0000 L CNN
+F 1 "470R 1%" H 13920 8945 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 13780 8900 50  0001 C CNN
 F 3 "~" H 13850 8900 50  0001 C CNN
 	1    13850 8900
@@ -2970,8 +2954,6 @@ F 3 "http://www.ti.com/product/INA826/" H 14400 8900 50  0001 C CNN
 	1    14400 8900
 	1    0    0    -1  
 $EndComp
-Text Notes 15350 6350 0    50   ~ 0
-1.5915V@3A
 $Comp
 L Device:C C4
 U 1 1 60152986
@@ -2983,10 +2965,10 @@ F 3 "~" H 13150 8900 50  0001 C CNN
 	1    13150 8900
 	1    0    0    -1  
 $EndComp
-Text Notes 11950 8900 0    50   ~ 0
-8.657mV@500°C
+Text Notes 11900 8950 0    50   ~ 0
+8.657mV@500°C\n(Tamb = 0°C)
 Text Notes 15350 8800 0    50   ~ 0
-1.952V@500°C
+0.92V@500°C
 Text Notes 13650 4650 0    50   ~ 0
 1.65V@25°C
 $Comp
@@ -3087,7 +3069,7 @@ L Device:R R24
 U 1 1 6010025C
 P 13350 3950
 F 0 "R24" H 13420 3996 50  0000 L CNN
-F 1 "10k 1%" H 13420 3905 50  0000 L CNN
+F 1 "10k 0.1%" H 13420 3905 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 13280 3950 50  0001 C CNN
 F 3 "~" H 13350 3950 50  0001 C CNN
 	1    13350 3950
@@ -3107,4 +3089,51 @@ Wire Wire Line
 	8550 6550 8650 6550
 Text Label 10300 9900 0    50   ~ 0
 IRON_-
+Text Notes 11950 9750 0    50   ~ 0
+Matched*: value does not matter that much, \nbut resistors must be matched to equal value.\nYou may use oridinary 5% resitors and \ncherry-pick a perfectly equal pair.
+Text Notes 1600 2600 0    50   ~ 0
+VADC = \nVin*0.0449
+Text Notes 15300 8650 0    50   ~ 0
+Keep output \nunder 1V at \nfull scale input.
+Text Notes 15300 6200 0    50   ~ 0
+Keep output \nunder 1V at \nfull scale input.
+Text Notes 15350 6350 0    50   ~ 0
+0.756V@3A
+$Comp
+L Diode:BAV99 D8
+U 1 1 6021EFB1
+P 14900 4350
+F 0 "D8" V 14850 4200 50  0000 L CNN
+F 1 "BAV99" V 14750 4050 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 14900 3850 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/BAV99_SER.pdf" H 14900 4350 50  0001 C CNN
+	1    14900 4350
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	14850 4050 14900 4050
+$Comp
+L Device:R R2
+U 1 1 5FF18CDB
+P 15400 4050
+F 0 "R2" V 15193 4050 50  0000 C CNN
+F 1 "100R" V 15284 4050 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 15330 4050 50  0001 C CNN
+F 3 "~" H 15400 4050 50  0001 C CNN
+	1    15400 4050
+	0    1    1    0   
+$EndComp
+Text GLabel 15600 4050 2    50   Output ~ 0
+~RESET
+Wire Wire Line
+	15550 4050 15600 4050
+Wire Wire Line
+	15100 4350 15100 4050
+Wire Wire Line
+	15100 4050 14900 4050
+Connection ~ 14900 4050
+Wire Wire Line
+	14900 4650 15250 4650
+Wire Wire Line
+	15250 4650 15250 4050
 $EndSCHEMATC
