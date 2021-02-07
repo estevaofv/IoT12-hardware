@@ -1,14 +1,22 @@
+# Status
+
+**Experimental. Do not replicate.**
+
+PCB version V1.1 is able to regulate the temperature of a T12 tip, however **you should be present at all times when using this circuit in case something goes wrong.**\
+There is a safety circuit on the board in case the ESP32 controller decides to die and stuck the heater on permanently. The heater must be turned off and on within 0.5s to keep the safety circuit happy. That still means things can go wrong.\
+Did I tell you that you should be present **and paying attention** at all times when using this circuit?
+
 # IoT12-hardware
 Schematic and PCB files of the IoT12 solder iron temperature controller for T12 tips.
 
 My [Kicad library](https://github.com/atoomnetmarc/ATOOMNETKICAD) is used in this project.
 
 ![](IoT12-render.jpg)
-**Note**: pictured rotary encoder is not the correct type. It should be a EC11 serrated 15mm.
+**Note**: pictured rotary encoder is not the correct type. It should be an EC11 serrated 15mm.
 
 ![](IoT12-pcb.jpg)
 
-# Status
+# Checklist
 
 - [x] Design schematic
 - [x] Route PCB
@@ -22,10 +30,6 @@ My [Kicad library](https://github.com/atoomnetmarc/ATOOMNETKICAD) is used in thi
 - [ ] Make firmware
 - [ ] ...
 - [ ] profit
-
-PCB version V1.1 is able to regulate the temperature of a T12 tip, however **you should be present at all times when using this circuit in case something goes wrong.**\
-There is a safety circuit on the board in case the ESP32 controller decides to die and stuck the heater on permanently. The heater must be turned off and on within 0.5s to keep the safety circuit happy. That still means things can go wrong.\
-Did I tell you that you should be present **and paying attention** at all times when using this circuit?
 
 # Changelog
 
