@@ -38,6 +38,8 @@ My [Kicad library](https://github.com/atoomnetmarc/ATOOMNETKICAD) is used in thi
 - Added explanation to schematic about using matched resistors for the instrumentation amplifiers.
 - Changed gain resistors of the instrumentation amplifiers as to keep Vout under 1V at full scale input.
 - Added series diode to output of voltage monitor.
+- Lowered value of C2-C5 from 10nF to 1nF.
+- Added D9 and D10.
 
 **PCB version V1.0**
 
@@ -54,6 +56,7 @@ My [Kicad library](https://github.com/atoomnetmarc/ATOOMNETKICAD) is used in thi
 - Silkscreen error in 'Solder iron connector'-block. '5, red, +.' and '4, black, ground.' are switched resulting in negative voltages for positive temperatures. Switch leads will solve this. Corrected in next PCB version.
 - Gain of instrumentation amplifiers not correct.
 - Programming by USB is imposible.
+- Measuring temperature takes too long (20ms).
 
 # License
 
