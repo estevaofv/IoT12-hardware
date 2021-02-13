@@ -189,7 +189,7 @@ F 3 "" H 9850 4550 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	9850 4550 9850 4650
-Text Notes 7050 4400 0    118  ~ 0
+Text Notes 7000 4400 0    118  ~ 0
 Display
 $Comp
 L power:GND #PWR0144
@@ -432,7 +432,7 @@ Wire Wire Line
 Wire Wire Line
 	9600 2150 9600 2500
 Connection ~ 9600 2500
-Text Notes 7050 750  0    118  ~ 0
+Text Notes 7000 750  0    118  ~ 0
 Heater power
 Text GLabel 9550 2650 0    50   Output ~ 0
 IRON_+

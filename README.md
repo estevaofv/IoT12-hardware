@@ -21,17 +21,23 @@ My [Kicad library](https://github.com/atoomnetmarc/ATOOMNETKICAD) is used in thi
 - [x] Design schematic
 - [x] Route PCB
 - [x] Slept a few days before ordering PCB
-- [x] Ordered PCB
+- [x] Order PCB
 - [x] Made my first github repository
 - [x] PCB arrived
 - [x] Solder first PCB and make assembly intructions
 - [x] Observe that there is something wrong in schematic
 - [x] Debug PCB
+- [ ] Redesign PCB, add heating co-processor
+- [ ] Order PCB
 - [ ] Make firmware
 - [ ] ...
 - [ ] profit
 
 # Changelog
+
+**PCB version V2.0**
+
+-
 
 **PCB version V1.1**
 
@@ -51,7 +57,7 @@ My [Kicad library](https://github.com/atoomnetmarc/ATOOMNETKICAD) is used in thi
 
 **PCB version V1.1**
 
-- No known erratum.
+- Overheating circuit not very stable. No fix.
 
 **PCB version V1.0**
 
