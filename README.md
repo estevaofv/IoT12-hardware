@@ -40,6 +40,8 @@ My [Kicad library](https://github.com/atoomnetmarc/ATOOMNETKICAD) is used in thi
 - Added series diode to output of voltage monitor.
 - Lowered value of C2-C5 from 10nF to 1nF.
 - Added D9 and D10.
+- Changed value of R9 from 100R to 1k
+- Added circuit to shutdown heating in case of overheating tip.
 
 **PCB version V1.0**
 
