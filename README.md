@@ -2,9 +2,7 @@
 
 **Experimental. Do not replicate.**
 
-PCB version V1.1 is able to regulate the temperature of a T12 tip, however **you should be present at all times when using this circuit in case something goes wrong.**\
-There is a safety circuit on the board in case the ESP32 controller decides to die and stuck the heater on permanently. The heater must be turned off and on within 0.5s to keep the safety circuit happy. That still means things can go wrong.\
-Did I tell you that you should be present **and paying attention** at all times when using this circuit?
+**You should be present at all times when using this circuit in case something goes wrong.**
 
 # IoT12-hardware
 Schematic and PCB files of the IoT12 solder iron temperature controller for T12 tips.
@@ -14,21 +12,22 @@ My [Kicad library](https://github.com/atoomnetmarc/ATOOMNETKICAD) is used in thi
 ![](IoT12-render.jpg)
 **Note**: pictured rotary encoder is not the correct type. It should be an EC11 serrated 15mm.
 
-![](IoT12-pcb.jpg)
-
 # Checklist
 
 - [x] Design schematic
-- [x] Route PCB
-- [x] Slept a few days before ordering PCB
-- [x] Order PCB
+- [x] Route V1 PCB
+- [x] Slept a few days before ordering V1 PCB
+- [x] Order V1 PCB
 - [x] Made my first github repository
-- [x] PCB arrived
-- [x] Solder first PCB and make assembly intructions
+- [x] V1 PCB arrived
+- [x] Solder V1 PCB and make assembly intructions
 - [x] Observe that there is something wrong in schematic
-- [x] Debug PCB
-- [ ] Redesign PCB, add heating co-processor
-- [ ] Order PCB
+- [x] Debug V1 PCB
+- [x] Redesign PCB, add microcontroller
+- [ ] Order V2 PCB
+- [ ] V2 PCB arrived
+- [ ] Solder V2 PCB and make assembly intructions
+- [ ] Debug V2 PCB
 - [ ] Make firmware
 - [ ] ...
 - [ ] profit
@@ -37,7 +36,9 @@ My [Kicad library](https://github.com/atoomnetmarc/ATOOMNETKICAD) is used in thi
 
 **PCB version V2.0**
 
--
+- Replace safety features by microcontroller.
+- Heating control now done by microcontroller.
+- Changed shape and layout of pcb.
 
 **PCB version V1.1**
 

@@ -1,99 +1,49 @@
-**Solder**
+#Solder
 
 Solder components in the following order.
 Use the [interactive BOM](bom/ibom.html) for values and positions of the components.
 
-**Integrated circuit**
+##Integrated circuit
 
-U1.\
-U2.\
-U3, U4.\
-U5.\
-U6.\
-U7.\
-U8.
+##Resistor
 
-**Resistor**
+**Read schematic notes about these resistors.**
 
-R1.\
-R2, R3, R4, R5, R6, R7, R8.\
-R10.\
-R11.\
-R9, R12, R13.\
-R14.\
-R15, R16, R17, R18, R19, R20, R21.\
-R22, R23, R29, R45.\
-R24.\
-R25, R26, R27, R28. **Read schematic notes about these resistors.**\
-R30.\
-R44.\
-R31, R32, R33, R34, R35, R36, R37, R42.\
-R38, R39, R40, R41.
+##Diode
 
-**Diode**
+##Mosfet
 
-D1.\
-D2, D8, D9, D10.\
-D3.\
-D4.\
-D5, D6, D7.
+##Capacitor
 
-**Mosfet**
+##Female header, front of pcb
 
-Q1, Q2.\
-Q3.
+##Female header, back of pcb
 
-**Capacitor**
+##Male header, back of pcb
 
-C1.\
-C2, C3, C4, C5.\
-C6, C8, C9, C10, C11, C12, C13, C17, C18.\
-C14.\
-C15, C16.
+##Capacitor
 
-**Female header, front of pcb**
+##Inductor
 
-A2.
+##Fuse
 
-**Female header, back of pcb**
-
-A1.
-
-**Male header, back of pcb**
-
-J1.\
-LS1.
-
-**Capacitor**
-
-C7.
-
-**Inductor**
-
-L1.
-
-**Fuse**
-
-F1.\
-F2.
-
-**Clean PCB**
+#Clean PCB
 
 [Clean your printed circuit board](http://letmegooglethat.com/?q=how+to+clean+flux+after+soldering). It should be squaky clean, no flux residu or other crud should remain.
 
-**Encoder**
+##Encoder
 
 Solder SW1 and remove nut and washer.
 
-**Inspect**
+#Inspect
 
 Inspect all solder joints. They should all be [nicely soldered](https://www.google.com/search?q=proper+solder+joint), no [solder bridges](https://www.google.com/search?q=picture+of+a+solder+bridge) should be present. Have a magnifying glass or (digital) microscope? Use it.
 
-**GX12-5 connector**
+##GX12-5 connector
 
 Solder a GX12-5 socket connector to the solder iron connector holes with the correct colors.
 
-**Testing**
+#Testing
 
 Connect a (KSGER) T12 solder iron handle with the T12 tip firmly seated inside.
 

@@ -1,5 +1,4 @@
 (fp_lib_table
-  (lib (name @Footprints)(type KiCad)(uri ${KIPRJMOD}/Footprints)(options "")(descr ""))
   (lib (name Connector_BarrelJack-fixed)(type KiCad)(uri ${ATOOMNETKICAD}/footprints/Connector_BarrelJack-fixed.pretty)(options "")(descr ""))
   (lib (name Display-extra)(type KiCad)(uri ${ATOOMNETKICAD}/footprints/Display-extra.pretty)(options "")(descr ""))
   (lib (name Rotary_Encoder-fixed)(type KiCad)(uri ${ATOOMNETKICAD}/footprints/Rotary_Encoder-fixed.pretty)(options "")(descr ""))
