@@ -5,7 +5,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 2 5
 Title "IoT12-hardware input and sensors"
-Date "2021-02-21"
+Date "2021-02-22"
 Rev "V2.0"
 Comp ""
 Comment1 ""
@@ -78,9 +78,9 @@ Wire Notes Line
 Wire Notes Line
 	11100 550  11100 3050
 Text Notes 6400 750  0    118  ~ 0
-Heater power sensor
+Heater current sensor
 Text GLabel 10350 1800 2    50   Output ~ 0
-IRON_POWER
+IRON_CURRENT
 $Comp
 L Device:Rotary_Encoder_Switch SW1
 U 1 1 5FF2935D
@@ -739,7 +739,7 @@ Wire Wire Line
 Text GLabel 7550 4750 0    50   Input ~ 0
 TEMP
 Text GLabel 7550 4950 0    50   Input ~ 0
-IRON_POWER
+IRON_CURRENT
 Text GLabel 7550 5050 0    50   Input ~ 0
 VIN
 Text GLabel 7550 4850 0    50   Input ~ 0

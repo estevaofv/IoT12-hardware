@@ -5,7 +5,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 3 5
 Title "IoT12-hardware power supply"
-Date "2021-02-21"
+Date "2021-02-22"
 Rev "V2.0"
 Comp ""
 Comment1 ""
@@ -516,28 +516,10 @@ F 3 "" H 1250 3300 50  0001 C CNN
 	1    1250 3300
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	1250 1950 1250 3050
-$Comp
-L power:PWR_FLAG #FLG0106
-U 1 1 6072A30C
-P 900 3300
-F 0 "#FLG0106" H 900 3375 50  0001 C CNN
-F 1 "PWR_FLAG" H 900 3473 50  0000 C CNN
-F 2 "" H 900 3300 50  0001 C CNN
-F 3 "~" H 900 3300 50  0001 C CNN
-	1    900  3300
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	1250 3050 900  3050
-Wire Wire Line
-	900  3050 900  3300
-Connection ~ 1250 3050
-Wire Wire Line
-	1250 3050 1250 3300
 Text Label 1300 1750 0    50   ~ 0
 24V_DC
 Text Label 3200 1750 0    50   ~ 0
 24V_DC_SW
+Wire Wire Line
+	1250 1950 1250 3300
 $EndSCHEMATC

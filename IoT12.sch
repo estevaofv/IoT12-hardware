@@ -5,7 +5,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 5
 Title "IoT12-hardware"
-Date "2021-02-21"
+Date "2021-02-22"
 Rev "V2.0"
 Comp ""
 Comment1 ""
