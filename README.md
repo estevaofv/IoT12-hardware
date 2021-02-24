@@ -24,7 +24,7 @@ My [Kicad library](https://github.com/atoomnetmarc/ATOOMNETKICAD) is used in thi
 - [x] Observe that there is something wrong in schematic
 - [x] Debug V1 PCB
 - [x] Redesign PCB, add microcontroller
-- [ ] Order V2 PCB
+- [x] Order V2 PCB
 - [ ] V2 PCB arrived
 - [ ] Solder V2 PCB and make assembly intructions
 - [ ] Debug V2 PCB
