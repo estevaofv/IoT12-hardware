@@ -1,25 +1,30 @@
-#Solder
+# Solder
 
 Solder components in the following order.
 Use the [interactive BOM](bom/ibom.html) for values and positions of the components.
 
-##Resistor
+## Resistor
+
 
 R2.
 
-##Diode
+## Diode
+
 
 D2.
 
-##Screw terminal
+## Screw terminal
+
 
 J1, J2.
 
-##Power supply
+## Power supply
+
 
 One off PS1, PS2 or PS3.
 
-#Testing
+# Testing
+
 
 ⚡ ☠️ **Warning**! When testing you are  (mm|planck distances|inches) away from dangerous mains voltage. When touched it hurts the entire time you are dying. The bottom and top the PCB contain exposed tracks and screw terminals carrying mains voltage. Consult expert on how to handle mains voltages.
 
