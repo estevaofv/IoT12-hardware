@@ -63,6 +63,10 @@ Power Supply:
 
 # Eratta
 
+**Control board PCB version V2.0**
+
+- No known erratum.
+
 **Control board PCB version V1.1**
 
 - Overheating circuit not very stable. No fix.
