@@ -14,7 +14,7 @@ Control Board:
 **Note**: pictured rotary encoder is not the correct type. It should be an EC11 serrated 15mm.
 
 Power Supply:
-![](Power%20Supply/IoT12%20Power%20Supply-render.jpg)
+![](Power%20Supply/IoT12%20Power%20Supply.jpg)
 
 # Checklist
 
