@@ -31,7 +31,7 @@ Power Supply:
 - [x] Order V2 control board PCB
 - [x] Design power supply PCB
 - [x] Order power supply PCB
-- [ ] V2 control board PCB and power supply PCB arrived
+- [x] V2 control board PCB and power supply PCB arrived
 - [ ] Solder V2 control board PCB and make assembly intructions
 - [ ] Solder V1 power supply PCB and make assembly intructions
 - [ ] Debug V2 control board PCB
