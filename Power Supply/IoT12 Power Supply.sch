@@ -28,23 +28,23 @@ $Comp
 L Connector:Screw_Terminal_01x03 J1
 U 1 1 6038EB43
 P 4300 2450
-F 0 "J1" H 4218 2767 50  0000 C CNN
-F 1 "Screw_Terminal_01x03" H 4218 2676 50  0000 C CNN
+F 0 "J1" H 4218 2125 50  0000 C CNN
+F 1 "Screw_Terminal_01x03" H 4218 2216 50  0000 C CNN
 F 2 "TerminalBlock:TerminalBlock_bornier-3_P5.08mm" H 4300 2450 50  0001 C CNN
 F 3 "~" H 4300 2450 50  0001 C CNN
 	1    4300 2450
-	-1   0    0    -1  
+	-1   0    0    1   
 $EndComp
 $Comp
 L Connector:Screw_Terminal_01x03 J2
 U 1 1 60390401
 P 6750 2450
-F 0 "J2" H 6830 2492 50  0000 L CNN
-F 1 "Screw_Terminal_01x03" H 6830 2401 50  0000 L CNN
+F 0 "J2" H 6668 2125 50  0000 C CNN
+F 1 "Screw_Terminal_01x03" H 6668 2216 50  0000 C CNN
 F 2 "TerminalBlock:TerminalBlock_bornier-3_P5.08mm" H 6750 2450 50  0001 C CNN
 F 3 "~" H 6750 2450 50  0001 C CNN
 	1    6750 2450
-	1    0    0    -1  
+	1    0    0    1   
 $EndComp
 Wire Wire Line
 	4500 2350 4850 2350
