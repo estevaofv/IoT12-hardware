@@ -10,8 +10,7 @@ Schematic and PCB files of the IoT12 solder iron temperature controller for T12 
 My [Kicad library](https://github.com/atoomnetmarc/ATOOMNETKICAD) is used in this project.
 
 Control Board:
-![](Control%20Board/IoT12-render.jpg)
-**Note**: pictured rotary encoder is not the correct type. It should be an EC11 serrated 15mm.
+![](Control%20Board/IoT12.jpg)
 
 Power Supply:
 ![](Power%20Supply/IoT12%20Power%20Supply.jpg)
@@ -32,7 +31,7 @@ Power Supply:
 - [x] Design power supply PCB
 - [x] Order power supply PCB
 - [x] V2 control board PCB and power supply PCB arrived
-- [ ] Solder V2 control board PCB and make assembly intructions
+- [x] Solder V2 control board PCB and make assembly intructions
 - [x] Solder V1 power supply PCB and make assembly intructions
 - [ ] Debug V2 control board PCB
 - [ ] Make firmware
