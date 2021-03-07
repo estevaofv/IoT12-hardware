@@ -68,7 +68,7 @@ Power Supply:
 
 **Control board PCB version V2.0**
 
-- I2C to heater controller not working. SDA/SCL are connected wrong.
+- I2C to heater controller not working. SDA/SCL are connected wrong. Swap them on the PCB near R55 and R56 to make the ESP32 communicate to the heater controller.
 
 **Control board PCB version V1.1**
 
