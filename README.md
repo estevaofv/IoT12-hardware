@@ -23,7 +23,7 @@ Power Supply:
 - [x] Order V1 control board PCB
 - [x] Made my first github repository
 - [x] V1 control board PCB arrived
-- [x] Solder V1 control board PCB and make assembly intructions
+- [x] Solder V1 control board PCB and make assembly instructions
 - [x] Observe that there is something wrong in schematic
 - [x] Debug V1 control board PCB
 - [x] Redesign control board PCB, add microcontroller
@@ -31,14 +31,18 @@ Power Supply:
 - [x] Design power supply PCB
 - [x] Order power supply PCB
 - [x] V2 control board PCB and power supply PCB arrived
-- [x] Solder V2 control board PCB and make assembly intructions
-- [x] Solder V1 power supply PCB and make assembly intructions
+- [x] Solder V2 control board PCB and make assembly instructions
+- [x] Solder V1 power supply PCB and make assembly instructions
 - [ ] Debug V2 control board PCB
 - [ ] Make firmware
 - [ ] ...
 - [ ] profit
 
 # Changelog
+
+**Control board PCB version V2.1**
+
+- Switched SDA/SCL pins on heater controller.
 
 **Control board PCB version V2.0**
 
@@ -64,7 +68,7 @@ Power Supply:
 
 **Control board PCB version V2.0**
 
-- No known erratum.
+- I2C to heater controller not working. SDA/SCL are connected wrong.
 
 **Control board PCB version V1.1**
 
@@ -74,7 +78,7 @@ Power Supply:
 
 - Silkscreen error in 'Solder iron connector'-block. '5, red, +.' and '4, black, ground.' are switched resulting in negative voltages for positive temperatures. Switch leads will solve this. Corrected in next PCB version.
 - Gain of instrumentation amplifiers not correct.
-- Programming by USB is imposible.
+- Programming by USB is impossible.
 - Measuring temperature takes too long (20ms).
 
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)

@@ -5,8 +5,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 4 5
 Title "IoT12-hardware brain"
-Date "2021-02-22"
-Rev "V2.0"
+Date "2021-03-07"
+Rev "V2.1"
 Comp ""
 Comment1 ""
 Comment2 ""
@@ -978,7 +978,7 @@ F 3 "https://assets.nexperia.com/documents/data-sheet/BAV99_SER.pdf" H 6300 4300
 	1    6300 4300
 	0    -1   -1   0   
 $EndComp
-Text GLabel 10500 2000 2    50   BiDi ~ 0
+Text GLabel 10500 2100 2    50   BiDi ~ 0
 ESP32_SDA
 Wire Wire Line
 	10500 2000 10250 2000
@@ -1048,7 +1048,7 @@ Wire Wire Line
 	1550 7050 1550 6500
 Text Notes 600  5500 0    118  ~ 0
 The pull is strong
-Text GLabel 10500 2100 2    50   Input ~ 0
+Text GLabel 10500 2000 2    50   Input ~ 0
 ESP32_SCL
 Wire Notes Line
 	11150 5200 11150 550 
