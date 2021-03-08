@@ -17,25 +17,25 @@ Power Supply:
 
 # Checklist
 
-:ballot_box_with_check:Design schematic
-:ballot_box_with_check:Route V1 control board PCB
-:ballot_box_with_check:Slept a few days before ordering V1 control board PCB
-:ballot_box_with_check:Order V1 control board PCB
-:ballot_box_with_check:Made my first github repository
-:ballot_box_with_check:V1 control board PCB arrived
-:ballot_box_with_check:Solder V1 control board PCB and make assembly instructions
-:ballot_box_with_check:Observe that there is something wrong in schematic
-:ballot_box_with_check:Debug V1 control board PCB
-:ballot_box_with_check:Redesign control board PCB, add microcontroller
-:ballot_box_with_check:Order V2 control board PCB
-:ballot_box_with_check:Design power supply PCB
-:ballot_box_with_check:Order power supply PCB
-:ballot_box_with_check:V2 control board PCB and power supply PCB arrived
-:ballot_box_with_check:Solder V2 control board PCB and make assembly instructions
-:ballot_box_with_check:Solder V1 power supply PCB and make assembly instructions
-:black_square_button:Debug V2 control board PCB
-:black_square_button:Make firmware
-:black_square_button:...
+:ballot_box_with_check:Design schematic\
+:ballot_box_with_check:Route V1 control board PCB\
+:ballot_box_with_check:Slept a few days before ordering V1 control board PCB\
+:ballot_box_with_check:Order V1 control board PCB\
+:ballot_box_with_check:Made my first github repository\
+:ballot_box_with_check:V1 control board PCB arrived\
+:ballot_box_with_check:Solder V1 control board PCB and make assembly instructions\
+:ballot_box_with_check:Observe that there is something wrong in schematic\
+:ballot_box_with_check:Debug V1 control board PCB\
+:ballot_box_with_check:Redesign control board PCB, add microcontroller\
+:ballot_box_with_check:Order V2 control board PCB\
+:ballot_box_with_check:Design power supply PCB\
+:ballot_box_with_check:Order power supply PCB\
+:ballot_box_with_check:V2 control board PCB and power supply PCB arrived\
+:ballot_box_with_check:Solder V2 control board PCB and make assembly instructions\
+:ballot_box_with_check:Solder V1 power supply PCB and make assembly instructions\
+:black_square_button:Debug V2 control board PCB\
+:black_square_button:Make firmware\
+:black_square_button:...\
 :black_square_button:profit
 
 # Changelog
