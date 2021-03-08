@@ -9,10 +9,10 @@ Schematic and PCB files of the IoT12 solder iron temperature controller for T12 
 
 My [Kicad library](https://github.com/atoomnetmarc/ATOOMNETKICAD) is used in this project.
 
-Control Board:
+Control Board:\
 ![](Control%20Board/IoT12.jpg)
 
-Power Supply:
+Power Supply:\
 ![](Power%20Supply/IoT12%20Power%20Supply.jpg)
 
 # Checklist
@@ -37,6 +37,47 @@ Power Supply:
 :black_square_button:Make firmware\
 :black_square_button:...\
 :black_square_button:profit
+
+# Checklist V2.0 control PCB
+
+Worky (after bodge fix)?
+
+:ballot_box_with_check:SAMD21 debug LED\
+:ballot_box_with_check:SAMD21 USB device\
+:ballot_box_with_check:SAMD21 SWD\
+:black_square_button:SAMD21 TP1/D0\
+:black_square_button:SAMD21 TP2/D1\
+:black_square_button:SAMD21 HEAT_INT\
+:ballot_box_with_check:SAMD21 I2C minion\
+:black_square_button:SAMD21 I2S_GAIN0\
+:black_square_button:SAMD21 I2S_GAIN1\
+:black_square_button:SAMD21 I2S_SD\
+:black_square_button:SAMD21 ADC_RDY\
+:black_square_button:SAMD21 TP3/D9\
+:black_square_button:SAMD21 TP4/D10\
+:black_square_button:SAMD21 PWM_HEAT\
+:black_square_button:SAMD21 I2C ADC\
+:black_square_button:SAMD21 I2C ADC NTC\
+:black_square_button:SAMD21 I2C ADC TEMP\
+:black_square_button:SAMD21 I2C ADC VIN\
+:black_square_button:SAMD21 I2C ADC IRON_CURRENT\
+:black_square_button:SAMD21 I2C EEPROM\
+:ballot_box_with_check:SAMD21 ADC NTC\
+:ballot_box_with_check:SAMD21 ADC TEMP\
+:ballot_box_with_check:SAMD21 ADC VIN\
+:ballot_box_with_check:SAMD21 ADC IRON_CURRENT\
+:black_square_button:SAMD21 ADC AIN_COMP\
+:black_square_button:SAMD21 AC AIN_COMP\
+:ballot_box_with_check:ESP32 LCD_LED\
+:ballot_box_with_check:ESP32 ROT_SW\
+:ballot_box_with_check:ESP32 ROT_A\
+:ballot_box_with_check:ESP32 ROT_B\
+:black_square_button:ESP32 I2S\
+:ballot_box_with_check:ESP32 I2C\
+:black_square_button:ESP32 JTAG\
+:ballot_box_with_check:ESP32 LCD\
+:black_square_button:ESP32 HEAT_INT
+
 
 # Changelog
 
