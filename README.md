@@ -17,26 +17,26 @@ Power Supply:
 
 # Checklist
 
-- [x] Design schematic
-- [x] Route V1 control board PCB
-- [x] Slept a few days before ordering V1 control board PCB
-- [x] Order V1 control board PCB
-- [x] Made my first github repository
-- [x] V1 control board PCB arrived
-- [x] Solder V1 control board PCB and make assembly instructions
-- [x] Observe that there is something wrong in schematic
-- [x] Debug V1 control board PCB
-- [x] Redesign control board PCB, add microcontroller
-- [x] Order V2 control board PCB
-- [x] Design power supply PCB
-- [x] Order power supply PCB
-- [x] V2 control board PCB and power supply PCB arrived
-- [x] Solder V2 control board PCB and make assembly instructions
-- [x] Solder V1 power supply PCB and make assembly instructions
-- [ ] Debug V2 control board PCB
-- [ ] Make firmware
-- [ ] ...
-- [ ] profit
+:ballot_box_with_check:Design schematic
+:ballot_box_with_check:Route V1 control board PCB
+:ballot_box_with_check:Slept a few days before ordering V1 control board PCB
+:ballot_box_with_check:Order V1 control board PCB
+:ballot_box_with_check:Made my first github repository
+:ballot_box_with_check:V1 control board PCB arrived
+:ballot_box_with_check:Solder V1 control board PCB and make assembly instructions
+:ballot_box_with_check:Observe that there is something wrong in schematic
+:ballot_box_with_check:Debug V1 control board PCB
+:ballot_box_with_check:Redesign control board PCB, add microcontroller
+:ballot_box_with_check:Order V2 control board PCB
+:ballot_box_with_check:Design power supply PCB
+:ballot_box_with_check:Order power supply PCB
+:ballot_box_with_check:V2 control board PCB and power supply PCB arrived
+:ballot_box_with_check:Solder V2 control board PCB and make assembly instructions
+:ballot_box_with_check:Solder V1 power supply PCB and make assembly instructions
+:black_square_button:Debug V2 control board PCB
+:black_square_button:Make firmware
+:black_square_button:...
+:black_square_button:profit
 
 # Changelog
 
