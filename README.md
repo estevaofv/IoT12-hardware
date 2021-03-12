@@ -50,12 +50,13 @@ Worky (after bodge fix)?
 :ballot_box_with_check:SAMD21 TP3/D9\
 :ballot_box_with_check:SAMD21 TP4/D10\
 :ballot_box_with_check:SAMD21 HEAT_INT\
+:ballot_box_with_check:SAMD21 HEAT_PWM\
+
 :ballot_box_with_check:SAMD21 I2C minion\
-:black_square_button:SAMD21 I2S_GAIN0\
-:black_square_button:SAMD21 I2S_GAIN1\
-:black_square_button:SAMD21 I2S_SD\
+:ballot_box_with_check:SAMD21 I2S_GAIN0\
+:ballot_box_with_check:SAMD21 I2S_GAIN1\
+:ballot_box_with_check:SAMD21 I2S_SD\
 :black_square_button:SAMD21 ADC_RDY\
-:black_square_button:SAMD21 HEAT_PWM\
 :black_square_button:SAMD21 I2C ADC\
 :black_square_button:SAMD21 I2C ADC NTC\
 :black_square_button:SAMD21 I2C ADC TEMP\
@@ -72,11 +73,11 @@ Worky (after bodge fix)?
 :ballot_box_with_check:ESP32 ROT_SW\
 :ballot_box_with_check:ESP32 ROT_A\
 :ballot_box_with_check:ESP32 ROT_B\
-:black_square_button:ESP32 I2S\
+:ballot_box_with_check:ESP32 I2S\
 :ballot_box_with_check:ESP32 I2C\
 :black_square_button:ESP32 JTAG\
 :ballot_box_with_check:ESP32 LCD\
-:black_square_button:ESP32 HEAT_INT
+:ballot_box_with_check:ESP32 HEAT_INT
 
 
 # Changelog
@@ -107,6 +108,10 @@ Worky (after bodge fix)?
 - First version that got made into PCB form.
 
 # Eratta
+
+**Control board PCB version V2.1**
+
+- No known erratum.
 
 **Control board PCB version V2.0**
 
