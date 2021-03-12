@@ -678,5 +678,5 @@ Wire Wire Line
 Text Label 2750 2000 0    50   ~ 0
 GATE
 Text Notes 750  5450 0    50   ~ 0
-Due to 3.3V gain drive\nvoltage and 5V VCC \nthe following gains \nare possible:\n9dB, 6dB and 15dB
+Due to 3.3V gain drive\nvoltage and 5V VCC \nthe following gains \nare possible:\n9dB, 12dB and 15dB
 $EndSCHEMATC
