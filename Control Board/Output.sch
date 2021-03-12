@@ -5,8 +5,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 5 5
 Title "IoT12-hardware output"
-Date "2021-03-08"
-Rev "V2.0"
+Date "2021-03-12"
+Rev "V2.1"
 Comp ""
 Comment1 ""
 Comment2 ""
@@ -554,7 +554,7 @@ Wire Wire Line
 Wire Wire Line
 	2250 2750 2400 2750
 Text GLabel 1200 2750 0    50   Input ~ 0
-PWM_HEAT
+HEAT_PWM
 Wire Wire Line
 	1200 2750 1350 2750
 Connection ~ 1350 2750

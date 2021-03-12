@@ -5,7 +5,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 4 5
 Title "IoT12-hardware brain"
-Date "2021-03-08"
+Date "2021-03-12"
 Rev "V2.1"
 Comp ""
 Comment1 ""
@@ -846,7 +846,7 @@ DEBUG_LED
 Text Notes 4600 5500 0    118  ~ 0
 Debug LED
 Text GLabel 10500 2900 2    50   Output ~ 0
-PWM_HEAT
+HEAT_PWM
 Wire Wire Line
 	10500 2900 10250 2900
 Text GLabel 10500 3700 2    50   Input ~ 0
@@ -882,10 +882,10 @@ Wire Wire Line
 	3350 3350 3600 3350
 Text GLabel 10500 3500 2    50   Input ~ 0
 NTC
-Text GLabel 10500 1900 2    50   Output ~ 0
+Text GLabel 10500 2100 2    50   Output ~ 0
 HEAT_INT
 Wire Wire Line
-	10250 1900 10500 1900
+	10250 2100 10500 2100
 Text GLabel 10500 2200 2    50   Output ~ 0
 I2S_GAIN0
 Text GLabel 10500 2300 2    50   Output ~ 0
@@ -978,7 +978,7 @@ F 3 "https://assets.nexperia.com/documents/data-sheet/BAV99_SER.pdf" H 6300 4300
 	1    6300 4300
 	0    -1   -1   0   
 $EndComp
-Text GLabel 10500 2100 2    50   BiDi ~ 0
+Text GLabel 10500 1900 2    50   BiDi ~ 0
 ESP32_SDA
 Wire Wire Line
 	10500 2000 10250 2000
@@ -1067,7 +1067,7 @@ Wire Wire Line
 Wire Wire Line
 	10500 3500 10250 3500
 Wire Wire Line
-	10500 2100 10250 2100
+	10500 1900 10250 1900
 NoConn ~ 8250 3600
 NoConn ~ 8250 3400
 NoConn ~ 8250 3300
