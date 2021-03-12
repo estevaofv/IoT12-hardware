@@ -50,7 +50,7 @@ Worky (after bodge fix)?
 :ballot_box_with_check:SAMD21 TP3/D9\
 :ballot_box_with_check:SAMD21 TP4/D10\
 :ballot_box_with_check:SAMD21 HEAT_INT\
-:black_square_button:SAMD21 HEAT_PWM\
+:ballot_box_with_check:SAMD21 HEAT_PWM\
 :ballot_box_with_check:SAMD21 I2C minion\
 :ballot_box_with_check:SAMD21 I2S_GAIN0\
 :ballot_box_with_check:SAMD21 I2S_GAIN1\
