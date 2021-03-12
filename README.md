@@ -45,17 +45,17 @@ Worky (after bodge fix)?
 :ballot_box_with_check:SAMD21 debug LED\
 :ballot_box_with_check:SAMD21 USB device\
 :ballot_box_with_check:SAMD21 SWD\
-:black_square_button:SAMD21 TP1/D0\
-:black_square_button:SAMD21 TP2/D1\
-:black_square_button:SAMD21 HEAT_INT\
+:ballot_box_with_check:SAMD21 TP1/D0\
+:ballot_box_with_check:SAMD21 TP2/D1\
+:ballot_box_with_check:SAMD21 TP3/D9\
+:ballot_box_with_check:SAMD21 TP4/D10\
+:ballot_box_with_check:SAMD21 HEAT_INT\
 :ballot_box_with_check:SAMD21 I2C minion\
 :black_square_button:SAMD21 I2S_GAIN0\
 :black_square_button:SAMD21 I2S_GAIN1\
 :black_square_button:SAMD21 I2S_SD\
 :black_square_button:SAMD21 ADC_RDY\
-:black_square_button:SAMD21 TP3/D9\
-:black_square_button:SAMD21 TP4/D10\
-:black_square_button:SAMD21 PWM_HEAT\
+:black_square_button:SAMD21 HEAT_PWM\
 :black_square_button:SAMD21 I2C ADC\
 :black_square_button:SAMD21 I2C ADC NTC\
 :black_square_button:SAMD21 I2C ADC TEMP\
@@ -84,6 +84,7 @@ Worky (after bodge fix)?
 **Control board PCB version V2.1**
 
 - Switched SDA/SCL pins on heater controller.
+- Renamed PWM_HEAT to HEAT_PWM.
 
 **Control board PCB version V2.0**
 
