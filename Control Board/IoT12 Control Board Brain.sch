@@ -1448,4 +1448,6 @@ Wire Wire Line
 Connection ~ 5100 4800
 Wire Wire Line
 	5100 4800 5200 4800
+Text Notes 6250 6950 0    50   ~ 0
+I2C: 0x50
 $EndSCHEMATC
