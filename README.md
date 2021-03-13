@@ -116,7 +116,7 @@ Worky (after bodge fix)?
 **Control board PCB version V2.0**
 
 - I2C to heater controller not working. SDA/SCL are swapped. Swap them on the PCB near R55 and R56 to make the ESP32 communicate to the heater controller.
-- A theme is developing :unamused:. I2C from the heater controller to the I2C EEPROM and ADC is not working. SDA/SCL are swapped. Swap them between R53, R54 and the heater controller.
+- A theme is developing :unamused:. I2C from the heater controller to the I2C EEPROM and ADC is not working. SDA/SCL are swapped. Swap them between R53, R54 and the heater controller on the bottom where the SDA/SCL traces run next to eachother.
 
 **Control board PCB version V1.1**
 
