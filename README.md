@@ -83,7 +83,8 @@ Worky (after bodge fix)?
 
 **Control board PCB version V2.1**
 
-- Switched SDA/SCL pins on heater controller.
+- Swapped SDA/SCL I2C minion pins on heater controller.
+- Swapped SDA/SCL I2C master pins on heater controller.
 - Renamed PWM_HEAT to HEAT_PWM.
 
 **Control board PCB version V2.0**
@@ -114,7 +115,8 @@ Worky (after bodge fix)?
 
 **Control board PCB version V2.0**
 
-- I2C to heater controller not working. SDA/SCL are connected wrong. Swap them on the PCB near R55 and R56 to make the ESP32 communicate to the heater controller.
+- I2C to heater controller not working. SDA/SCL are swapped. Swap them on the PCB near R55 and R56 to make the ESP32 communicate to the heater controller.
+- A theme is developing :unamused:. I2C from the heater controller to the I2C EEPROM and ADC is not working. SDA/SCL are swapped. Swap them between R53, R54 and the heater controller.
 
 **Control board PCB version V1.1**
 

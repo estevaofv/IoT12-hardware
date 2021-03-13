@@ -5,7 +5,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 4 5
 Title "IoT12-hardware brain"
-Date "2021-03-12"
+Date "2021-03-13"
 Rev "V2.1"
 Comp ""
 Comment1 ""
@@ -159,11 +159,11 @@ F 3 "" H 8150 4850 50  0001 C CNN
 	1    8150 4850
 	1    0    0    -1  
 $EndComp
-Text GLabel 10500 3200 2    50   Output ~ 0
+Text GLabel 10500 3300 2    50   Output ~ 0
 HEAT_SCL
 Wire Wire Line
-	10500 3200 10250 3200
-Text GLabel 10500 3300 2    50   BiDi ~ 0
+	10500 3300 10250 3300
+Text GLabel 10500 3200 2    50   BiDi ~ 0
 HEAT_SDA
 $Comp
 L Device:R R?
@@ -1053,7 +1053,7 @@ ESP32_SCL
 Wire Notes Line
 	11150 5200 11150 550 
 Wire Wire Line
-	10500 3300 10250 3300
+	10500 3200 10250 3200
 Wire Wire Line
 	7850 1600 8250 1600
 Wire Wire Line
