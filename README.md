@@ -61,7 +61,7 @@ Worky (after bodge fix)?
 :black_square_button:SAMD21 I2C ADC TEMP\
 :black_square_button:SAMD21 I2C ADC VIN\
 :black_square_button:SAMD21 I2C ADC IRON_CURRENT\
-:black_square_button:SAMD21 I2C EEPROM\
+:ballot_box_with_check:SAMD21 I2C EEPROM\
 :ballot_box_with_check:SAMD21 ADC NTC\
 :ballot_box_with_check:SAMD21 ADC TEMP\
 :ballot_box_with_check:SAMD21 ADC VIN\
