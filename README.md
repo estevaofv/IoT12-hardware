@@ -10,7 +10,7 @@ Schematic and PCB files of the IoT12 solder iron temperature controller for T12 
 My [Kicad library](https://github.com/atoomnetmarc/ATOOMNETKICAD) is used in this project.
 
 Control Board:\
-![](Control%20Board/IoT12.jpg)
+![](Control%20Board/IoT12%20Control%20Board.jpg)
 
 Power Supply:\
 ![](Power%20Supply/IoT12%20Power%20Supply.jpg)

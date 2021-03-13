@@ -61,24 +61,24 @@ $Sheet
 S 1550 600  900  800 
 U 6029EF83
 F0 "Input" 50
-F1 "Input.sch" 50
+F1 "IoT12 Control Board Input.sch" 50
 $EndSheet
 $Sheet
 S 550  600  900  800 
 U 604268EE
 F0 "Power" 50
-F1 "Power.sch" 50
+F1 "IoT12 Control Board Power.sch" 50
 $EndSheet
 $Sheet
 S 2550 600  900  800 
 U 60488463
 F0 "Brain" 50
-F1 "Brain.sch" 50
+F1 "IoT12 Control Board Brain.sch" 50
 $EndSheet
 $Sheet
 S 3550 600  900  800 
 U 604A18A1
 F0 "Output" 50
-F1 "Output.sch" 50
+F1 "IoT12 Control Board Output.sch" 50
 $EndSheet
 $EndSCHEMATC
