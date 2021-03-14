@@ -74,7 +74,7 @@ Worky (after bodge fix)?
 :ballot_box_with_check:ESP32 ROT_B\
 :ballot_box_with_check:ESP32 I2S\
 :ballot_box_with_check:ESP32 I2C\
-:black_square_button:ESP32 JTAG\
+:ballot_box_with_check:ESP32 JTAG\
 :ballot_box_with_check:ESP32 LCD\
 :ballot_box_with_check:ESP32 HEAT_INT
 
