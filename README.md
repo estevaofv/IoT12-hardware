@@ -34,7 +34,8 @@ Power Supply:\
 :ballot_box_with_check:Solder V2 control board PCB and make assembly instructions\
 :ballot_box_with_check:Solder V1 power supply PCB and make assembly instructions\
 :black_square_button:Debug V2 control board PCB\
-:black_square_button:Make firmware\
+:ballot_box_with_check:Start making firmware\
+:black_square_button:Finish first firmware version\
 :black_square_button:...\
 :black_square_button:profit
 
