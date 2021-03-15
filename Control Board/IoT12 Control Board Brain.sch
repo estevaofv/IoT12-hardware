@@ -16,12 +16,12 @@ $EndDescr
 $Comp
 L power:GND #PWR0153
 U 1 1 5FF0E00E
-P 2650 4950
-F 0 "#PWR0153" H 2650 4700 50  0001 C CNN
-F 1 "GND" H 2655 4777 50  0000 C CNN
-F 2 "" H 2650 4950 50  0001 C CNN
-F 3 "" H 2650 4950 50  0001 C CNN
-	1    2650 4950
+P 2650 4850
+F 0 "#PWR0153" H 2650 4600 50  0001 C CNN
+F 1 "GND" H 2655 4677 50  0000 C CNN
+F 2 "" H 2650 4850 50  0001 C CNN
+F 3 "" H 2650 4850 50  0001 C CNN
+	1    2650 4850
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -56,79 +56,79 @@ F 3 "" H 2750 1050 50  0001 C CNN
 $EndComp
 Text Notes 600  750  0    118  ~ 0
 ESP32 wireless module
-Text GLabel 1750 2250 0    50   Output ~ 0
+Text GLabel 1750 2150 0    50   Output ~ 0
 LCD_LED
 Wire Wire Line
-	1750 2250 1950 2250
-Text GLabel 1750 3000 0    50   BiDi ~ 0
+	1750 2150 1950 2150
+Text GLabel 1750 2900 0    50   BiDi ~ 0
 ESP32_SDA
-Text GLabel 1750 3100 0    50   Output ~ 0
+Text GLabel 1750 3000 0    50   Output ~ 0
 ESP32_SCL
 Wire Wire Line
 	2750 1050 2750 1100
+NoConn ~ 1950 4050
 NoConn ~ 1950 4150
 NoConn ~ 1950 4250
 NoConn ~ 1950 4350
 NoConn ~ 1950 4450
 NoConn ~ 1950 4550
-NoConn ~ 1950 4650
-Text GLabel 3600 2500 2    50   Output ~ 0
+Text GLabel 3600 2400 2    50   Output ~ 0
 LCD_~CE
-Text GLabel 3600 2650 2    50   Output ~ 0
+Text GLabel 3600 2550 2    50   Output ~ 0
 LCD_CLK
-Text GLabel 3600 2850 2    50   Output ~ 0
+Text GLabel 3600 2750 2    50   Output ~ 0
 LCD_DIN
-Text GLabel 3600 2200 2    50   Output ~ 0
+Text GLabel 3600 2100 2    50   Output ~ 0
 LCD_~RST
-Text GLabel 3600 2350 2    50   Output ~ 0
+Text GLabel 3600 2250 2    50   Output ~ 0
 LCD_DATA-~CMD
-Text GLabel 1750 2350 0    50   Input ~ 0
+Text GLabel 1750 2250 0    50   Input ~ 0
 ROT_SW
-Text GLabel 3600 3050 2    50   Input ~ 0
+Text GLabel 3600 2950 2    50   Input ~ 0
 ROT_A
 Wire Wire Line
-	3350 3050 3600 3050
-Text GLabel 3600 3150 2    50   Input ~ 0
+	3350 2950 3600 2950
+Text GLabel 3600 3050 2    50   Input ~ 0
 ROT_B
 Wire Wire Line
-	3600 3150 3350 3150
+	3600 3050 3350 3050
 $Comp
 L MCU_Module-extra:ESP32-DevKitC A1
 U 1 1 5FF09372
-P 2650 3050
-F 0 "A1" H 3150 4300 50  0000 C CNN
-F 1 "2x Conn_01x19_Female" H 3150 1300 50  0000 C CNN
-F 2 "Module-extra:ESP32-DevKitC" H 2650 1150 50  0001 C CNN
-F 3 "https://www.espressif.com/sites/default/files/documentation/esp32-wroom-32_datasheet_en.pdf" H 2350 2950 50  0001 C CNN
-F 4 "ESP32-DevKitC" H 3000 1200 50  0000 C CNN "Description"
-	1    2650 3050
+P 2650 2950
+F 0 "A1" H 3150 4200 50  0000 C CNN
+F 1 "2x Conn_01x19_Female" H 3150 1200 50  0000 C CNN
+F 2 "Module-extra:ESP32-DevKitC" H 2650 1050 50  0001 C CNN
+F 3 "https://www.espressif.com/sites/default/files/documentation/esp32-wroom-32_datasheet_en.pdf" H 2350 2850 50  0001 C CNN
+F 4 "ESP32-DevKitC" H 3000 1100 50  0000 C CNN "Description"
+	1    2650 2950
 	1    0    0    -1  
 $EndComp
-NoConn ~ 3350 2750
+NoConn ~ 3350 2650
 Wire Wire Line
-	3450 2250 3450 2200
+	3450 2150 3450 2100
 Wire Wire Line
-	3450 2200 3600 2200
+	3450 2100 3600 2100
 Wire Wire Line
-	3350 2250 3450 2250
+	3350 2150 3450 2150
 Wire Wire Line
-	3350 2350 3600 2350
+	3350 2250 3600 2250
 Wire Wire Line
-	3350 2450 3450 2450
+	3350 2350 3450 2350
 Wire Wire Line
-	3450 2450 3450 2500
+	3450 2350 3450 2400
 Wire Wire Line
-	3450 2500 3600 2500
+	3450 2400 3600 2400
 Wire Wire Line
-	3350 2650 3600 2650
+	3350 2550 3600 2550
 Wire Wire Line
-	3350 2850 3600 2850
+	3350 2750 3600 2750
 Wire Wire Line
-	1750 2350 1950 2350
+	1750 2250 1950 2250
 Wire Wire Line
-	2650 4850 2650 4950
+	2650 4750 2650 4850
 Wire Wire Line
-	3350 3750 3550 3750
+	3350 3650 3550 3650
 $Comp
 L MCU_Microchip_SAMD-extra:SAMD21G_ARDUINO_M0 U1
 U 1 1 60312A43
@@ -868,18 +868,18 @@ Wire Wire Line
 	5150 6650 5150 6800
 Wire Wire Line
 	5150 7100 5150 7400
-Text GLabel 1750 2650 0    50   Output ~ 0
+Text GLabel 1750 2550 0    50   Output ~ 0
 I2S_BCK
-Text GLabel 1750 2750 0    50   Output ~ 0
+Text GLabel 1750 2650 0    50   Output ~ 0
 I2S_WS
 Wire Wire Line
-	1750 2650 1950 2650
+	1750 2550 1950 2550
 Wire Wire Line
-	1950 2750 1750 2750
-Text GLabel 3600 3350 2    50   Output ~ 0
+	1950 2650 1750 2650
+Text GLabel 3600 3250 2    50   Output ~ 0
 I2S_DATA
 Wire Wire Line
-	3350 3350 3600 3350
+	3350 3250 3600 3250
 Text GLabel 10500 3500 2    50   Input ~ 0
 NTC
 Text GLabel 10500 2100 2    50   Output ~ 0
@@ -922,12 +922,12 @@ $EndComp
 $Comp
 L power:GND #PWR0137
 U 1 1 608EAD5C
-P 2950 1600
-F 0 "#PWR0137" H 2950 1350 50  0001 C CNN
-F 1 "GND" H 2955 1427 50  0000 C CNN
-F 2 "" H 2950 1600 50  0001 C CNN
-F 3 "" H 2950 1600 50  0001 C CNN
-	1    2950 1600
+P 2950 1500
+F 0 "#PWR0137" H 2950 1250 50  0001 C CNN
+F 1 "GND" H 2955 1327 50  0000 C CNN
+F 2 "" H 2950 1500 50  0001 C CNN
+F 3 "" H 2950 1500 50  0001 C CNN
+	1    2950 1500
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -936,12 +936,12 @@ Wire Wire Line
 	2950 1100 2750 1100
 Connection ~ 2750 1100
 Wire Wire Line
-	2750 1100 2750 1750
+	2750 1100 2750 1650
 Wire Wire Line
-	2950 1600 2950 1450
+	2950 1500 2950 1450
 NoConn ~ 7050 2850
+NoConn ~ 3350 3750
 NoConn ~ 3350 3850
-NoConn ~ 3350 3950
 Wire Notes Line
 	2400 5300 2400 7700
 Wire Notes Line
@@ -949,7 +949,7 @@ Wire Notes Line
 Text GLabel 1100 7150 0    50   BiDi ~ 0
 ESP32_SCL
 Wire Wire Line
-	1750 3100 1950 3100
+	1750 3000 1950 3000
 Wire Wire Line
 	1100 7150 1850 7150
 Wire Wire Line
@@ -957,13 +957,13 @@ Wire Wire Line
 Text GLabel 1100 7250 0    50   BiDi ~ 0
 ESP32_SDA
 Wire Wire Line
-	1750 3000 1950 3000
+	1750 2900 1950 2900
 Wire Wire Line
 	1100 7250 2150 7250
 Wire Wire Line
 	2150 6500 2150 7250
-NoConn ~ 3350 3650
-Text GLabel 3550 3750 2    50   Input ~ 0
+NoConn ~ 3350 3550
+Text GLabel 3550 3650 2    50   Input ~ 0
 HEAT_INT
 $Comp
 L Diode:BAV99 D?
@@ -1257,10 +1257,10 @@ Wire Wire Line
 	6600 6550 6750 6550
 Wire Wire Line
 	6750 6550 6750 6200
-NoConn ~ 1950 3400
 NoConn ~ 1950 3300
+NoConn ~ 1950 3200
 NoConn ~ 10250 3000
-NoConn ~ 3350 2150
+NoConn ~ 3350 2050
 $Comp
 L Connector:TestPoint TP1
 U 1 1 603DC263
@@ -1316,81 +1316,77 @@ Wire Wire Line
 $Comp
 L Connector:Conn_ARM_JTAG_SWD_10 J9
 U 1 1 6045AF4E
-P 1100 4250
-F 0 "J9" H 1450 4850 50  0000 R CNN
-F 1 "Conn_ARM_JTAG_SWD_10" H 2100 3650 50  0000 R CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_2x05_P2.54mm_Vertical" H 1100 4250 50  0001 C CNN
-F 3 "http://infocenter.arm.com/help/topic/com.arm.doc.ddi0314h/DDI0314H_coresight_components_trm.pdf" V 750 3000 50  0001 C CNN
-	1    1100 4250
+P 1100 4150
+F 0 "J9" H 1450 4750 50  0000 R CNN
+F 1 "Conn_ARM_JTAG_SWD_10" H 2100 3550 50  0000 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x05_P2.54mm_Vertical" H 1100 4150 50  0001 C CNN
+F 3 "http://infocenter.arm.com/help/topic/com.arm.doc.ddi0314h/DDI0314H_coresight_components_trm.pdf" V 750 2900 50  0001 C CNN
+	1    1100 4150
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR04
 U 1 1 6045D9E5
-P 1000 4950
-F 0 "#PWR04" H 1000 4700 50  0001 C CNN
-F 1 "GND" H 1005 4777 50  0000 C CNN
-F 2 "" H 1000 4950 50  0001 C CNN
-F 3 "" H 1000 4950 50  0001 C CNN
-	1    1000 4950
+P 1000 4850
+F 0 "#PWR04" H 1000 4600 50  0001 C CNN
+F 1 "GND" H 1005 4677 50  0000 C CNN
+F 2 "" H 1000 4850 50  0001 C CNN
+F 3 "" H 1000 4850 50  0001 C CNN
+	1    1000 4850
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1000 4950 1000 4900
+	1000 4850 1000 4800
 Wire Wire Line
-	1100 4850 1100 4900
+	1100 4750 1100 4800
 Wire Wire Line
-	1100 4900 1000 4900
-Connection ~ 1000 4900
+	1100 4800 1000 4800
+Connection ~ 1000 4800
 Wire Wire Line
-	1000 4900 1000 4850
+	1000 4800 1000 4750
 $Comp
 L power:+3.3V #PWR03
 U 1 1 60474EA3
-P 1100 3500
-F 0 "#PWR03" H 1100 3350 50  0001 C CNN
-F 1 "+3.3V" H 1115 3673 50  0000 C CNN
-F 2 "" H 1100 3500 50  0001 C CNN
-F 3 "" H 1100 3500 50  0001 C CNN
-	1    1100 3500
+P 1100 3400
+F 0 "#PWR03" H 1100 3250 50  0001 C CNN
+F 1 "+3.3V" H 1115 3573 50  0000 C CNN
+F 2 "" H 1100 3400 50  0001 C CNN
+F 3 "" H 1100 3400 50  0001 C CNN
+	1    1100 3400
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1100 3500 1100 3650
-Text GLabel 1750 2000 0    50   Input ~ 0
-EN
+	1100 3400 1100 3550
+Text GLabel 1200 1900 0    50   Input ~ 0
+ESP32_~RESET
 Wire Wire Line
-	1750 2000 1950 2000
-Text GLabel 1600 3550 1    50   Input ~ 0
-EN
+	1200 1900 1400 1900
 Wire Wire Line
-	1600 3950 1600 3550
+	1950 3550 1700 3550
 Wire Wire Line
-	1950 3650 1700 3650
+	1700 3550 1700 4150
 Wire Wire Line
-	1700 3650 1700 4250
+	1700 4150 1600 4150
 Wire Wire Line
-	1700 4250 1600 4250
+	1950 3650 1650 3650
 Wire Wire Line
-	1950 3750 1650 3750
+	1650 3650 1650 4050
 Wire Wire Line
-	1650 3750 1650 4150
+	1650 4050 1600 4050
 Wire Wire Line
-	1650 4150 1600 4150
+	1950 3750 1750 3750
 Wire Wire Line
-	1950 3850 1750 3850
+	1750 3750 1750 4250
 Wire Wire Line
-	1750 3850 1750 4350
+	1750 4250 1600 4250
 Wire Wire Line
-	1750 4350 1600 4350
+	1600 4350 1800 4350
 Wire Wire Line
-	1600 4450 1800 4450
+	1800 4350 1800 3850
 Wire Wire Line
-	1800 4450 1800 3950
+	1800 3850 1950 3850
 Wire Wire Line
-	1800 3950 1950 3950
-Wire Wire Line
-	2550 1050 2550 1750
+	2550 1050 2550 1650
 Text Label 10250 1600 0    50   ~ 0
 D0
 Text Label 10250 1700 0    50   ~ 0
@@ -1450,4 +1446,17 @@ Wire Wire Line
 	5100 4800 5200 4800
 Text Notes 6250 6950 0    50   ~ 0
 I2C: 0x50
+Wire Wire Line
+	1600 3150 1200 3150
+Wire Wire Line
+	1200 3150 1200 2000
+Wire Wire Line
+	1200 2000 1400 2000
+Wire Wire Line
+	1400 2000 1400 1900
+Wire Wire Line
+	1600 3150 1600 3850
+Connection ~ 1400 1900
+Wire Wire Line
+	1400 1900 1950 1900
 $EndSCHEMATC

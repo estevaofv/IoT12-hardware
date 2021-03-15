@@ -57,11 +57,11 @@ Worky (after bodge fix)?
 :ballot_box_with_check:SAMD21 I2S_GAIN1\
 :ballot_box_with_check:SAMD21 I2S_SD\
 :black_square_button:SAMD21 ADC_RDY\
-:black_square_button:SAMD21 I2C ADC\
-:black_square_button:SAMD21 I2C ADC NTC\
-:black_square_button:SAMD21 I2C ADC TEMP\
-:black_square_button:SAMD21 I2C ADC VIN\
-:black_square_button:SAMD21 I2C ADC IRON_CURRENT\
+:ballot_box_with_check:SAMD21 I2C ADC\
+:ballot_box_with_check:SAMD21 I2C ADC NTC\
+:ballot_box_with_check:SAMD21 I2C ADC TEMP\
+:ballot_box_with_check:SAMD21 I2C ADC VIN\
+:ballot_box_with_check:SAMD21 I2C ADC IRON_CURRENT\
 :ballot_box_with_check:SAMD21 I2C EEPROM\
 :ballot_box_with_check:SAMD21 ADC NTC\
 :ballot_box_with_check:SAMD21 ADC TEMP\
@@ -87,6 +87,7 @@ Worky (after bodge fix)?
 - Swapped SDA/SCL I2C minion pins on heater controller.
 - Swapped SDA/SCL I2C master pins on heater controller.
 - Renamed PWM_HEAT to HEAT_PWM.
+- Re-added MAX809S voltage monitor to keep ESP32 in reset if 3.3V is too low.
 
 **Control board PCB version V2.0**
 
@@ -117,7 +118,8 @@ Worky (after bodge fix)?
 **Control board PCB version V2.0**
 
 - I2C to heater controller not working. SDA/SCL are swapped. Swap them on the PCB near R55 and R56 to make the ESP32 communicate to the heater controller.
-- A theme is developing :unamused:. I2C from the heater controller to the I2C EEPROM and ADC is not working. SDA/SCL are swapped. Swap them between R53, R54 and the heater controller on the bottom where the SDA/SCL traces run next to eachother.
+- A theme is developing :unamused:. I2C from the heater controller to the I2C EEPROM and ADC is not working. SDA/SCL are swapped. Swap them between R53, R54 and the heater controller on the bottom where the SDA/SCL traces run next to each other.
+- ESP32 will lockup if power supply rise time is too slow.
 
 **Control board PCB version V1.1**
 
