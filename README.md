@@ -67,7 +67,7 @@ Worky (after bodge fix)?
 :ballot_box_with_check:SAMD21 ADC TEMP\
 :ballot_box_with_check:SAMD21 ADC VIN\
 :ballot_box_with_check:SAMD21 ADC IRON_CURRENT\
-:black_square_button:SAMD21 ADC AIN_COMP\
+:ballot_box_with_check:SAMD21 ADC AIN_COMP\
 :black_square_button:SAMD21 AC AIN_COMP\
 :ballot_box_with_check:ESP32 LCD_LED\
 :ballot_box_with_check:ESP32 ROT_SW\
