@@ -56,7 +56,7 @@ Worky (after bodge fix)?
 :ballot_box_with_check:SAMD21 I2S_GAIN0\
 :ballot_box_with_check:SAMD21 I2S_GAIN1\
 :ballot_box_with_check:SAMD21 I2S_SD\
-:black_square_button:SAMD21 ADC_RDY\
+:ballot_box_with_check:SAMD21 ADC_RDY\
 :ballot_box_with_check:SAMD21 I2C ADC\
 :ballot_box_with_check:SAMD21 I2C ADC NTC\
 :ballot_box_with_check:SAMD21 I2C ADC TEMP\
