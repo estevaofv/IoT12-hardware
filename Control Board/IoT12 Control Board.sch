@@ -5,7 +5,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 5
 Title "IoT12-hardware"
-Date "2021-03-13"
+Date "2021-03-27"
 Rev "V2.1"
 Comp ""
 Comment1 ""
@@ -58,7 +58,7 @@ F 3 "~" H 650 7350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Sheet
-S 1550 600  900  800 
+S 550  1650 900  800 
 U 6029EF83
 F0 "Input" 50
 F1 "IoT12 Control Board Input.sch" 50
@@ -70,13 +70,13 @@ F0 "Power" 50
 F1 "IoT12 Control Board Power.sch" 50
 $EndSheet
 $Sheet
-S 2550 600  900  800 
+S 550  2700 900  800 
 U 60488463
 F0 "Brain" 50
 F1 "IoT12 Control Board Brain.sch" 50
 $EndSheet
 $Sheet
-S 3550 600  900  800 
+S 550  3750 900  800 
 U 604A18A1
 F0 "Output" 50
 F1 "IoT12 Control Board Output.sch" 50
