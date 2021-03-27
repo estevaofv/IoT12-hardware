@@ -43,12 +43,12 @@ R30.
 R31, R32, R33, R34.
 R40.
 R52.
-R50, R51, R53, R54, R55, R56, R57, R58, R59.
+R50, R51, R53, R54, R55, R56, R57, R58, R59, R82.
 R60, R61, R62, R63. **Read schematic notes about these resistors.**
 R64.
 R70.
 R71, R72.
-R80, R81, R82, R83, R84.
+R80, R81, R83, R84.
 
 ### Capacitor
 

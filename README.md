@@ -88,6 +88,7 @@ Worky (after bodge fix)?
 - Swapped SDA/SCL I2C master pins on heater controller.
 - Renamed PWM_HEAT to HEAT_PWM.
 - Re-added MAX809S voltage monitor to keep ESP32 in reset if 3.3V is too low.
+- Changed value of R82 from 1M to 4k7.
 
 **Control board PCB version V2.0**
 
