@@ -5,7 +5,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 5 5
 Title "IoT12-hardware output"
-Date "2021-03-27"
+Date "2021-03-28"
 Rev "V2.1"
 Comp ""
 Comment1 ""
@@ -423,7 +423,7 @@ L Device:R R82
 U 1 1 60060621
 P 3900 3350
 F 0 "R82" H 3830 3304 50  0000 R CNN
-F 1 "4k7" H 3830 3395 50  0000 R CNN
+F 1 "1M" H 3830 3395 50  0000 R CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 3830 3350 50  0001 C CNN
 F 3 "~" H 3900 3350 50  0001 C CNN
 	1    3900 3350

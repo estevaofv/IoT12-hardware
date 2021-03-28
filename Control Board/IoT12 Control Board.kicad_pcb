@@ -11,7 +11,7 @@
 
   (page A4)
   (title_block
-    (date 2021-03-27)
+    (date 2021-03-28)
     (rev V2.1)
   )
 
@@ -1871,7 +1871,7 @@
     (fp_text reference R82 (at -3.81 0) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 4k7 (at 0 1.65) (layer F.Fab)
+    (fp_text value 1M (at 0 1.65) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start 1.85 0.95) (end -1.85 0.95) (layer F.CrtYd) (width 0.05))
@@ -5265,7 +5265,7 @@
   (gr_text "JTAG ESP32" (at 19.05 -34.29) (layer B.SilkS) (tstamp 6035C0B4)
     (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
   )
-  (gr_text "IoT12, 2021-03-27, V2.1\nhttps://atoomnet.net" (at -17.78 -33.02) (layer F.SilkS)
+  (gr_text "IoT12, 2021-03-28, V2.1\nhttps://atoomnet.net" (at -17.78 -33.02) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
   (gr_line (start -7.62 6.604) (end 7.62 6.604) (layer F.SilkS) (width 0.5))
