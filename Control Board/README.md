@@ -105,7 +105,15 @@ Inspect all solder joints. They should all be [nicely soldered](https://www.goog
 
 ### GX12-5 connector
 
-Solder a GX12-5 socket connector to the connector holes on the back with the correct cable colors.
+Solder some wires between a GX12-5 socket connector and the back of the pcb. On the back of the pcb there are a few pads labeled 1 to 5, solder them to pin 1 to 5 on the GX12-5 connector.
+
+| Pin#  | Wire color    | Description   |
+| --:   | --            | --            |
+| 1     | blue          | shake         |
+| 2     | white         | NTC           |
+| 3     | green         | ESD           |
+| 4     | black         | T12-          |
+| 5     | red           | T12+          |
 
 ## Testing
 
