@@ -5,7 +5,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 3 5
 Title "IoT12-hardware power supply"
-Date "2021-03-28"
+Date "2021-04-02"
 Rev "V2.1"
 Comp ""
 Comment1 ""
@@ -71,11 +71,6 @@ Wire Wire Line
 	2600 3000 2600 3300
 Wire Wire Line
 	2600 2300 2600 2500
-Wire Wire Line
-	2600 1750 2650 1750
-Connection ~ 2600 1750
-Wire Wire Line
-	2600 2000 2600 1750
 $Comp
 L power:GND #PWR0124
 U 1 1 5FFC18CE
@@ -235,7 +230,7 @@ L Device:Polyfuse F1
 U 1 1 5FFBAD5E
 P 2100 1550
 F 0 "F1" V 1875 1550 50  0000 C CNN
-F 1 "2.5A/30V" V 1966 1550 50  0000 C CNN
+F 1 "*see schematic." V 1966 1550 50  0000 C CNN
 F 2 "Fuse:Fuse_Bourns_MF-RG1000" H 2150 1350 50  0001 L CNN
 F 3 "~" H 2100 1550 50  0001 C CNN
 	1    2100 1550
@@ -290,7 +285,7 @@ F 3 "~" H 1750 3300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2250 1550 2650 1550
+	2250 1550 2600 1550
 Wire Wire Line
 	1750 1750 1950 1750
 Connection ~ 1750 1750
@@ -300,8 +295,6 @@ Wire Wire Line
 	1750 1750 1750 1550
 Wire Wire Line
 	1150 1750 1750 1750
-Wire Wire Line
-	2250 1750 2600 1750
 Wire Wire Line
 	6650 3300 6650 2650
 $Comp
@@ -475,34 +468,34 @@ Wire Wire Line
 Wire Wire Line
 	3100 1750 2950 1750
 Wire Wire Line
-	2650 1350 2650 900 
-Connection ~ 2650 1350
+	3000 1350 3000 900 
+Connection ~ 3000 1350
 Wire Wire Line
-	3000 1350 2650 1350
+	3350 1350 3000 1350
 Wire Wire Line
-	3000 900  3000 1350
+	3350 900  3350 1350
 $Comp
 L power:PWR_FLAG #FLG0103
 U 1 1 5FF40C51
-P 3000 900
-F 0 "#FLG0103" H 3000 975 50  0001 C CNN
-F 1 "PWR_FLAG" H 3000 1073 50  0000 C CNN
-F 2 "" H 3000 900 50  0001 C CNN
-F 3 "~" H 3000 900 50  0001 C CNN
-	1    3000 900 
+P 3350 900
+F 0 "#FLG0103" H 3350 975 50  0001 C CNN
+F 1 "PWR_FLAG" H 3350 1073 50  0000 C CNN
+F 2 "" H 3350 900 50  0001 C CNN
+F 3 "~" H 3350 900 50  0001 C CNN
+	1    3350 900 
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2650 1550 2650 1350
+	3000 1550 3000 1350
 $Comp
 L power:+24V #PWR0120
 U 1 1 5FF3E5BB
-P 2650 900
-F 0 "#PWR0120" H 2650 750 50  0001 C CNN
-F 1 "+24V" H 2665 1073 50  0000 C CNN
-F 2 "" H 2650 900 50  0001 C CNN
-F 3 "" H 2650 900 50  0001 C CNN
-	1    2650 900 
+P 3000 900
+F 0 "#PWR0120" H 3000 750 50  0001 C CNN
+F 1 "+24V" H 3015 1073 50  0000 C CNN
+F 2 "" H 3000 900 50  0001 C CNN
+F 3 "" H 3000 900 50  0001 C CNN
+	1    3000 900 
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -600,4 +593,13 @@ Wire Notes Line
 	4900 3800 550  3800
 Text Notes 600  4000 0    118  ~ 0
 Voltage monitor
+Text Notes 650  1350 0    50   ~ 0
+*F1: fuse must be <=50% of amperage of T12 tip.\nFuse Vmax must exceed Vsupply.\nPower supply must be >=100% of amperage of T12 tip.\nMPM-90-24: 1.50A (JK60-150)\nMPM-30-15: 0.90A\nMPM-20-12: 0.75A
+Wire Wire Line
+	2250 1750 2650 1750
+Wire Wire Line
+	2600 2000 2600 1550
+Connection ~ 2600 1550
+Wire Wire Line
+	2600 1550 3000 1550
 $EndSCHEMATC
