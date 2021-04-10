@@ -84,14 +84,14 @@ Text GLabel 3600 2250 2    50   Output ~ 0
 LCD_DATA-~CMD
 Text GLabel 1750 2250 0    50   Input ~ 0
 ROT_SW
-Text GLabel 3600 2950 2    50   Input ~ 0
+Text GLabel 3600 3050 2    50   Input ~ 0
 ROT_A
 Wire Wire Line
-	3350 2950 3600 2950
-Text GLabel 3600 3050 2    50   Input ~ 0
+	3350 3050 3600 3050
+Text GLabel 3600 3150 2    50   Input ~ 0
 ROT_B
 Wire Wire Line
-	3600 3050 3350 3050
+	3600 3150 3350 3150
 $Comp
 L MCU_Module-extra:ESP32-DevKitC A1
 U 1 1 5FF09372
@@ -100,7 +100,7 @@ F 0 "A1" H 3150 4200 50  0000 C CNN
 F 1 "2x Conn_01x19_Female" H 3150 1200 50  0000 C CNN
 F 2 "Module-extra:ESP32-DevKitC" H 2650 1050 50  0001 C CNN
 F 3 "https://www.espressif.com/sites/default/files/documentation/esp32-wroom-32_datasheet_en.pdf" H 2350 2850 50  0001 C CNN
-F 4 "ESP32-DevKitC" H 3000 1100 50  0000 C CNN "Description"
+F 4 "ESP32-DevKitC v4 Wroom 16MB" H 3300 1100 50  0000 C CNN "Description"
 	1    2650 2950
 	1    0    0    -1  
 $EndComp
@@ -128,7 +128,7 @@ Wire Wire Line
 Wire Wire Line
 	2650 4750 2650 4850
 Wire Wire Line
-	3350 3650 3550 3650
+	3350 3750 3550 3750
 $Comp
 L MCU_Microchip_SAMD-extra:SAMD21G_ARDUINO_M0 U1
 U 1 1 60312A43
@@ -876,10 +876,10 @@ Wire Wire Line
 	1750 2550 1950 2550
 Wire Wire Line
 	1950 2650 1750 2650
-Text GLabel 3600 3250 2    50   Output ~ 0
+Text GLabel 3600 3350 2    50   Output ~ 0
 I2S_DATA
 Wire Wire Line
-	3350 3250 3600 3250
+	3350 3350 3600 3350
 Text GLabel 10500 3500 2    50   Input ~ 0
 NTC
 Text GLabel 10500 2100 2    50   Output ~ 0
@@ -940,7 +940,7 @@ Wire Wire Line
 Wire Wire Line
 	2950 1500 2950 1450
 NoConn ~ 7050 2850
-NoConn ~ 3350 3750
+NoConn ~ 3350 3950
 NoConn ~ 3350 3850
 Wire Notes Line
 	2400 5300 2400 7700
@@ -962,8 +962,8 @@ Wire Wire Line
 	1100 7250 2150 7250
 Wire Wire Line
 	2150 6500 2150 7250
-NoConn ~ 3350 3550
-Text GLabel 3550 3650 2    50   Input ~ 0
+NoConn ~ 3350 3650
+Text GLabel 3550 3750 2    50   Input ~ 0
 HEAT_INT
 $Comp
 L Diode:BAV99 D?
