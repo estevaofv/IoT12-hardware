@@ -135,5 +135,4 @@ Switch off power supply and mount the LCD display module and the ESP32 module.
 Increase maximum power supply current to 250mA. Instantly increase voltage to 5V, the slowly to 10V, current should not exceed 150mA. When at 10V the current draw should be under 100mA.
 You may increase voltage to 24V, consumed power should be under 40mA.
 
-When all tests went well, start writing your own firmware. Or [flash my firmware](https://github.com/atoomnetmarc/IoT12-firmware) when it becomes available.\
-Projected firmware availability date: soon™
+When all tests went well, start writing your own firmware. Or [flash my firmware](https://github.com/atoomnetmarc/IoT12-firmware)
