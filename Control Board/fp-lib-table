@@ -8,4 +8,5 @@
   (lib (name NetTie-extra)(type KiCad)(uri ${ATOOMNETKICAD}/footprints/NetTie-extra.pretty)(options "")(descr ""))
   (lib (name TestPoint-extra)(type KiCad)(uri ${ATOOMNETKICAD}/footprints/TestPoint-extra.pretty)(options "")(descr ""))
   (lib (name Inductor-fixed)(type KiCad)(uri ${ATOOMNETKICAD}/footprints/Inductor-fixed.pretty)(options "")(descr ""))
+  (lib (name Connector_USB-fixed)(type KiCad)(uri ${ATOOMNETKICAD}/footprints/Connector_USB-fixed.pretty)(options "")(descr ""))
 )

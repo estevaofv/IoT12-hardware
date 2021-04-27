@@ -223,7 +223,7 @@ U 1 1 60328BFC
 P 5200 3800
 F 0 "J10" H 5350 4150 50  0000 C CNN
 F 1 "USB_B_Micro" H 5450 3450 50  0000 C CNN
-F 2 "Connector_USB:USB_Micro-B_Amphenol_10118194_Horizontal" H 5350 3750 50  0001 C CNN
+F 2 "Connector_USB-fixed:USB_Micro-B_Amphenol_10118194_Horizontal" H 5350 3750 50  0001 C CNN
 F 3 "~" H 5350 3750 50  0001 C CNN
 	1    5200 3800
 	1    0    0    -1  
