@@ -7,4 +7,5 @@
   (lib (name Package_SO-extra)(type KiCad)(uri ${ATOOMNETKICAD}/footprints/Package_SO-extra.pretty)(options "")(descr ""))
   (lib (name NetTie-extra)(type KiCad)(uri ${ATOOMNETKICAD}/footprints/NetTie-extra.pretty)(options "")(descr ""))
   (lib (name TestPoint-extra)(type KiCad)(uri ${ATOOMNETKICAD}/footprints/TestPoint-extra.pretty)(options "")(descr ""))
+  (lib (name Inductor-fixed)(type KiCad)(uri ${ATOOMNETKICAD}/footprints/Inductor-fixed.pretty)(options "")(descr ""))
 )

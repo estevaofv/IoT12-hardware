@@ -5,7 +5,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 3 5
 Title "IoT12-hardware power supply"
-Date "2021-04-02"
+Date "2021-04-27"
 Rev "V2.1"
 Comp ""
 Comment1 ""
@@ -209,7 +209,7 @@ U 1 1 5FF78815
 P 5750 1950
 F 0 "L1" V 5662 1950 50  0000 C CNN
 F 1 "68uH" V 5571 1950 50  0000 C CNN
-F 2 "Inductor_SMD:L_12x12mm_H8mm" H 5750 1950 50  0001 C CNN
+F 2 "Inductor-fixed:L_12x12mm_H8mm" H 5750 1950 50  0001 C CNN
 F 3 "~" H 5750 1950 50  0001 C CNN
 	1    5750 1950
 	0    -1   -1   0   

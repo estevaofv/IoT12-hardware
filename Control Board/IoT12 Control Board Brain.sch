@@ -5,7 +5,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 4 5
 Title "IoT12-hardware brain"
-Date "2021-04-02"
+Date "2021-04-27"
 Rev "V2.1"
 Comp ""
 Comment1 ""
@@ -1178,7 +1178,7 @@ U 1 1 6035843C
 P 6200 6550
 F 0 "U6" H 6450 6800 50  0000 C CNN
 F 1 "AT24C32" H 6400 6300 50  0000 C CNN
-F 2 "Package_SO:SO-8_3.9x4.9mm_P1.27mm" H 6200 6550 50  0001 C CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 6200 6550 50  0001 C CNN
 F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21072G.pdf" H 6200 6550 50  0001 C CNN
 	1    6200 6550
 	1    0    0    -1  
